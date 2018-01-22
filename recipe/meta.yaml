@@ -10,8 +10,8 @@ package:
 source:
   fn: formatR_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/formatR_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/formatR/formatR_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/formatR_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/formatR/formatR_{{ version }}.tar.gz
   sha256: 874c197ae3720ec11b44984a055655b99a698e1912104eb9034c11fdf6104da7
 
 
